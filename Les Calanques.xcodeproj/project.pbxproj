@@ -20,6 +20,7 @@
 		1F20BE3C2428E64F001908B0 /* CalanqueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20BE3B2428E64F001908B0 /* CalanqueCell.swift */; };
 		1F20BE3E2428EC46001908B0 /* ImageRonde.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20BE3D2428EC46001908B0 /* ImageRonde.swift */; };
 		1F20BE4024291EED001908B0 /* CalanqueCellAlternative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20BE3F24291EED001908B0 /* CalanqueCellAlternative.swift */; };
+		1FCB6B1A242CAFD6000D1FB9 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB6B19242CAFD6000D1FB9 /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		1F20BE3B2428E64F001908B0 /* CalanqueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCell.swift; sourceTree = "<group>"; };
 		1F20BE3D2428EC46001908B0 /* ImageRonde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRonde.swift; sourceTree = "<group>"; };
 		1F20BE3F24291EED001908B0 /* CalanqueCellAlternative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCellAlternative.swift; sourceTree = "<group>"; };
+		1FCB6B19242CAFD6000D1FB9 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				1F20BE352428DF59001908B0 /* ControllerAvecTableView.swift */,
 				1F20BE372428DF71001908B0 /* ControllerAvecCarte.swift */,
 				1F20BE392428DFA6001908B0 /* TableViewIntegreeController.swift */,
+				1FCB6B19242CAFD6000D1FB9 /* DetailController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			files = (
 				1F20BE322428CB6F001908B0 /* Calanques.swift in Sources */,
 				1F20BE4024291EED001908B0 /* CalanqueCellAlternative.swift in Sources */,
+				1FCB6B1A242CAFD6000D1FB9 /* DetailController.swift in Sources */,
 				1F20BE362428DF59001908B0 /* ControllerAvecTableView.swift in Sources */,
 				1F20BE3A2428DFA6001908B0 /* TableViewIntegreeController.swift in Sources */,
 				1F20BE152428C6E7001908B0 /* AppDelegate.swift in Sources */,
