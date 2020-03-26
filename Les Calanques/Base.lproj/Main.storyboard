@@ -227,7 +227,13 @@
                             <outlet property="delegate" destination="Afi-WW-OCO" id="pg6-sY-Sg4"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="QbL-9c-U5u"/>
+                    <navigationItem key="navigationItem" id="QbL-9c-U5u">
+                        <barButtonItem key="rightBarButtonItem" title="Reload" id="LyZ-AK-ylE">
+                            <connections>
+                                <action selector="reloadAction:" destination="Afi-WW-OCO" id="DPJ-y1-fqL"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <segue destination="I5L-rx-TjP" kind="show" identifier="Detail" id="Pjr-i4-NGM"/>
                     </connections>
@@ -381,6 +387,6 @@
         <image name="port pin" width="1024" height="684"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xzg-wa-RfG"/>
+        <segue reference="Pjr-i4-NGM"/>
     </inferredMetricsTieBreakers>
 </document>
